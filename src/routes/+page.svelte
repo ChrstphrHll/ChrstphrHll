@@ -8,32 +8,32 @@
 
   <ul>
     <li>
-      <a href="https://swu-draft.pages.dev" target="_parent">Starwars Unlimited Multiplayer Draft Simulator</a>
+      <a href="https://swu-draft.pages.dev" target="_blank">Starwars Unlimited Multiplayer Draft Simulator</a>
     </li>
     <li>
-      <a href="https://pitazines.pages.dev/">Pita Zines</a> a gift I made for my partner
+      <a href="https://pitazines.pages.dev/" target="_blank">Pita Zines</a> a gift I made for my partner
     </li>
     <li>
-      <a href="https://chrstphrhll.itch.io/buylowselleyes">Buy Low; Sell Eyes</a> a four day game jam game
+      <a href="https://chrstphrhll.itch.io/buylowselleyes" target="_blank">Buy Low; Sell Eyes</a> a four day game jam game
     </li>
     <li>
-      <a href="https://chrstphrhll.github.io/DukeBotWBingo/">Duke Breath of the Wild Bingo</a>
+      <a href="https://chrstphrhll.github.io/DukeBotWBingo/" target="_blank">Duke Breath of the Wild Bingo</a>
     </li>
     <li>
-      <a href="https://democratichelphub.org/">Durham Help Hub</a> an info website for a mutual aid initiative in Durham
+      <a href="https://democratichelphub.org/" target="_blank">Durham Help Hub</a> an info website for a mutual aid initiative in Durham
     </li>
     <li>
-      <a href="https://chrstphrhll.pages.dev/">ChrstphrHll</a> a portfolio websites with no secrets or puzzles; its just normal
+      <a href="https://chrstphrhll.pages.dev/" target="_blank">ChrstphrHll</a> a portfolio websites with no secrets or puzzles; its just normal
     </li>
     <li>
-      <a href="https://compcon.app/">COMP/CON</a> a <i>Lancer</i> RGP companion app that I've made community contributions to
+      <a href="https://compcon.app/" target="_blank">COMP/CON</a> a <i>Lancer</i> RGP companion app that I've made community contributions to
     </li>
   </ul>
 
   <hr>
   <p>And here's a micro controller I taught to play <i>Celeste</i> really really fast with a friend</p>
   <video controls>
-    <source src="/celeste_tas.mov">
+    <source src="/celeste_tas.webm">
   </video>
 
 </div>
