@@ -1,3 +1,7 @@
+<script>
+
+</script>
+
 <div class="container">
   <h1>ChrstphrHll</h1>
   <p>That's me! I make cool stuff and put it on the internet.</p>
@@ -25,6 +29,13 @@
       <a href="https://compcon.app/">COMP/CON</a> a <i>Lancer</i> RGP companion app that I've made community contributions to
     </li>
   </ul>
+
+  <hr>
+  <p>And here's a micro controller I taught to play <i>Celeste</i> really really fast with a friend</p>
+  <video controls>
+    <source src="/celeste_tas.mov">
+  </video>
+
 </div>
 
 
@@ -32,6 +43,11 @@
   .container {
     max-width: 800px;
     margin-inline: auto;
-    margin-top: 64px;
+    margin-top: min(64px, 5 vh);
+  }
+
+  video {
+    margin-inline: auto;
+    width: min(500px, 90vw)
   }
 </style>
