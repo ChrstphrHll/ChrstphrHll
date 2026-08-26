@@ -32,7 +32,7 @@
 <hr>
 <p>And here's a micro controller I taught to play <i>Celeste</i> really really fast with a friend</p>
 <video controls>
-  <source src="/celeste_tas.webm">
+  <source src="/celeste_tas.webm" type="video/webm">
 </video>
 
 <style>
