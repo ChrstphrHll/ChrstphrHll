@@ -8,4 +8,14 @@
 	<link rel="icon" href={favicon} />
 </svelte:head>
 
-{@render children()}
+<div class="container">
+	{@render children()}
+</div>
+
+<style>
+	.container {
+    max-width: 800px;
+    margin-inline: auto;
+    margin-top: min(64px, 5 vh);
+  }
+</style>
