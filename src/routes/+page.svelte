@@ -1,8 +1,10 @@
 <script>
-
+  import me from "$lib/assets/me.png"
 </script>
 
+
 <h1>ChrstphrHll</h1>
+<img src={me} alt="christopher as a stick figure sitting at a laptop">
 <p>That's me! I make cool stuff and put it on the internet.</p>
 
 <ul>
@@ -14,6 +16,9 @@
   </li>
   <li>
     <a href="https://chrstphrhll.itch.io/buylowselleyes" target="_blank">Buy Low; Sell Eyes</a> a four day game jam game
+  </li>
+  <li>
+    <a href="https://chrstphrhll.itch.io/trust-no-one" target="_blank">Trust No. 1</a> another game jam game
   </li>
   <li>
     <a href="https://chrstphrhll.github.io/DukeBotWBingo/" target="_blank">Duke Breath of the Wild Bingo</a>
@@ -39,5 +44,12 @@
   video {
     margin-inline: auto;
     width: min(500px, 90vw)
+  }
+
+  @media (width >= 500px) {
+    img {
+      float: right;
+      margin-top: -16px;
+    }
   }
 </style>
