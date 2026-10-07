@@ -15,6 +15,9 @@
     <a href="https://pitazines.pages.dev/" target="_blank">Pita Zines</a> a gift I made for my partner
   </li>
   <li>
+    <a href="https://chrstphrhll.itch.io/showponystudios" target="_blank">Show Pony Studio</a> a two day game jam game
+  </li>
+  <li>
     <a href="https://chrstphrhll.itch.io/buylowselleyes" target="_blank">Buy Low; Sell Eyes</a> a four day game jam game
   </li>
   <li>
@@ -27,7 +30,7 @@
     <a href="https://democratichelphub.org/" target="_blank">Durham Help Hub</a> an info website for a mutual aid initiative in Durham
   </li>
   <li>
-    <a href="https://chrstphrhll.pages.dev/" target="_blank">ChrstphrHll</a> a portfolio websites with no secrets or puzzles; its just normal
+    <a href="https://chrstphrhll.pages.dev/" target="_blank">ChrstphrHll</a> a portfolio website with no secrets or puzzles; its just normal
   </li>
   <li>
     <a href="https://compcon.app/" target="_blank">COMP/CON</a> a <i>Lancer</i> RGP companion app that I've made community contributions to
