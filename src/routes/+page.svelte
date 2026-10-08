@@ -3,7 +3,7 @@
 </script>
 
 
-<h1>ChrstphrHll</h1>
+<h1 class="lato-black">ChrstphrHll </h1>
 <img src={me} alt="christopher as a stick figure sitting at a laptop">
 <p>That's me! I make cool stuff and put it on the internet.</p>
 
@@ -44,6 +44,30 @@
 </video>
 
 <style>
+  @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+  h1 {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+
+  p, ul {
+    font-family: "Lato", sans-serif;
+  }
+
+  a {
+    color: red;
+  }
+
+  a:visited {
+    color: rgb(165, 10, 10);
+  }
+
+  :global(body) {
+    background-color: antiquewhite;
+    color: rgb(101, 15, 15);
+  }
   video {
     margin-inline: auto;
     width: min(500px, 90vw)
