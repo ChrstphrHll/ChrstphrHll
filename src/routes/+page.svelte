@@ -1,5 +1,19 @@
-<script>
+<script lang="ts">
   import me from "$lib/assets/me.png"
+
+  let colors = [
+    
+  ]
+
+  function getRadius(color: String) {
+    const radius = "8px"
+    if (color === "red") {
+      return `${radius} 0px 0px ${radius}`
+    } else if (color === "purple") {
+      return `0px ${radius} ${radius} 0px`
+    }
+    return "0px"
+  }
 </script>
 
 
@@ -37,14 +51,38 @@
   </li>
 </ul>
 
-<hr>
+<div style="display: flex; min-width: 100%; margin-block: 16px;">
+{#each ["red", "orange", "yellow", "green", "blue", "purple"] as color}
+  <div style="height:8px; width: 100%; border-radius: {getRadius(color)}; background-color: var(--{color});"></div>
+{/each}
+</div>
+
 <p>And here's a micro controller I taught to play <i>Celeste</i> really really fast with a friend</p>
 <video controls>
   <source src="/celeste_tas.mov">
 </video>
 
+
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+  /* Pallet from https://lospec.com/palette-list/fantasy */
+  :global(:root) {
+    --red: #ca5954;
+    --orange: #e39347;
+    --yellow: #e8c65b;
+    --green: #557d55;
+    --blue: #668da9;
+    --purple: #7c6da2;
+    
+    --dark-red: #a94949;
+    --dark-orange: #e56f4b;
+    --dark-yellow: #eeb551;
+    --dark-green: #446350;
+    --dark-blue: #5c699f;
+    --dark-purple: #5a5888;
+  }
 
   h1 {
     font-family: "Lato", sans-serif;
@@ -57,11 +95,11 @@
   }
 
   a {
-    color: red;
+    color: var(--red);
   }
 
   a:visited {
-    color: rgb(165, 10, 10);
+    color: var(--dark-red);
   }
 
   :global(body) {
